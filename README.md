@@ -1,6 +1,5 @@
 # Cloud-portfolio
 Proyectos y prácticas - Cloud Computing / SENA
-# cloud-portfolio
 
 ## Nombre
 Jordan Castano
