@@ -7,7 +7,7 @@ Lo actualizaré cuando obtenga la cédula y demás papeles.
 - `cedula.pdf` — (Pendiente: obtener cédula; aquí irá el PDF escaneado).  
 - `diploma.pdf` — (Si ya lo tienes, indicar fecha).  
 - `betowa_screenshot.png` — Captura de mi perfil Betowa (fecha: YYYY-MM-DD).  
-- `hola.sh` — Script de práctica Linux (evidencia de práctica).  
+- `hola.sh` — Script de práctica Linux (evidencia de práctica).   
 - `notas_redes.md` — Apuntes básicos sobre IP / DNS / HTTP.  
 - `aws_account_placeholder.txt` — Nota: no tengo cuenta AWS todavía (pendiente por cédula/tarjeta).
 
