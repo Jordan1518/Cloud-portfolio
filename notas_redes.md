@@ -1,7 +1,8 @@
 # Notas de Redes
 
-- **Ping**: prueba si un host está activo (ej: `ping google.com`).
-- **nslookup**: consulta los DNS de un dominio.
-- **IP**: número que identifica a un dispositivo en la red.
-- **LAN**: red local.
-- **WAN**: red amplia (internet).
+- **Ping**: prueba si un host responde en la red (ej: `ping google.com`).
+- **nslookup**: consulta la información DNS de un dominio (ej: `nslookup google.com`).
+- **IP**: número que identifica a cada dispositivo en la red.
+- **LAN**: red local (ejemplo: tu wifi en casa).
+- **WAN**: red amplia (ejemplo: internet).
+- **Puerta de enlace (gateway)**: conecta tu red local con otra red.
