@@ -1,7 +1,11 @@
+# Proyecto A - Pasos para despliegue en AWS
+
 1. Crear bucket S3 con nombre único.
-2. Subir index.html y assets (index.html, css, images).
-3. Configurar permisos (política pública para lectura si es hosting estático).
-4. (Opcional) Habilitar Static Website Hosting en S3.
-5. Crear distribución CloudFront apuntando al bucket.
-6. (Opcional) Obtener certificado ACM y asociarlo a CloudFront.
-7. Crear alarmas de facturación y borrar recursos al terminar.
+2. Subir index.html y archivos relacionados (ej: css, imágenes).
+3. Configurar permisos públicos de lectura si es hosting estático.
+4. Habilitar "Static Website Hosting" en S3.
+5. Probar la URL de acceso del bucket.
+6. (Opcional) Crear distribución CloudFront apuntando al bucket.
+7. (Opcional) Obtener certificado SSL en ACM y asociarlo a CloudFront.
+8. Configurar alarmas de facturación en la consola de AWS.
+9. Eliminar recursos cuando no se usen para evitar costos.
