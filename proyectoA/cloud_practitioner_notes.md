@@ -20,7 +20,20 @@
 - Pago por uso, sin inversión inicial.
 - Posibilidad de reservar instancias para ahorrar costos.
 
----
-**Apuntes iniciales. Se irán ampliando con cada módulo del curso.**
+
+# Notas - Cloud Practitioner (Hoy)
+
+## Módulo 1 - Introducción (resumen)
+- La nube permite consumir recursos (compute, storage, network) por demanda.
+- Modelos: IaaS (máquinas), PaaS (plataformas), SaaS (apps).
+- Beneficios clave: escalabilidad, alta disponibilidad, pago por uso.
+
+## Módulo 2 - Computación en la nube (EC2 & escalado)
+- **EC2**: servicio de máquinas virtuales. Se elige tipo/CPU/RAM/OS.
+- **Tipos de instancias**: existen familias (ligeras vs compute-optimised vs memory-optimised). Elegir según la necesidad.
+- **Precios EC2**: on-demand (pago por hora), reserved (compromiso a cambio de descuento), spot (más barato, puede interrumpirse).
+- **Auto Scaling**: aumenta/reduce instancias según demanda (útil para tráfico variable).
+- **Elastic Load Balancer (ELB)**: reparte tráfico entre instancias para disponibilidad y estabilidad.
+
 
 
