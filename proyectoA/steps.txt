@@ -1,0 +1,7 @@
+1. Crear bucket S3 con nombre único.
+2. Subir index.html y assets (index.html, css, images).
+3. Configurar permisos (política pública para lectura si es hosting estático).
+4. (Opcional) Habilitar Static Website Hosting en S3.
+5. Crear distribución CloudFront apuntando al bucket.
+6. (Opcional) Obtener certificado ACM y asociarlo a CloudFront.
+7. Crear alarmas de facturación y borrar recursos al terminar.
