@@ -35,5 +35,21 @@
 - **Auto Scaling**: aumenta/reduce instancias según demanda (útil para tráfico variable).
 - **Elastic Load Balancer (ELB)**: reparte tráfico entre instancias para disponibilidad y estabilidad.
 
+### EC2 - Resumen (tipos y precios)
+- EC2: servicio de máquinas virtuales (instancias) en AWS.
+- Familias: ejemplos:
+  - t (burstable, general ligero) → ideal para pruebas y cargas pequeñas.
+  - m (general purpose) → equilibrio CPU/memoria.
+  - r (memory-optimized) → para bases de datos en memoria.
+- Modelos de precio:
+  - On-demand: pago por uso, flexible.
+  - Reserved: compromiso a 1/3 años, más barato si sabes uso.
+  - Spot: muy barato, pero la instancia puede interrumpirse.
+
+### Auto Scaling y ELB
+- Auto Scaling: ajusta automáticamente el número de instancias según métricas (CPU, tráfico). Ej: subir instancias en picos y bajar en horas bajas.
+- ELB (Load Balancer): reparte tráfico entre instancias; mejora disponibilidad y tolerancia a fallos.
+- Ejemplo de uso: sitio web con ELB + Auto Scaling para manejar picos de tráfico sin intervención manual.
+
 
 
