@@ -1,11 +1,74 @@
-# Proyecto A - Pasos para despliegue en AWS
 
-1. Crear bucket S3 con nombre único.
-2. Subir index.html y archivos relacionados (ej: css, imágenes).
-3. Configurar permisos públicos de lectura si es hosting estático.
-4. Habilitar "Static Website Hosting" en S3.
-5. Probar la URL de acceso del bucket.
-6. (Opcional) Crear distribución CloudFront apuntando al bucket.
-7. (Opcional) Obtener certificado SSL en ACM y asociarlo a CloudFront.
-8. Configurar alarmas de facturación en la consola de AWS.
-9. Eliminar recursos cuando no se usen para evitar costos.
+
+# proyectoA - Steps (checklist unificado para despliegue en AWS)
+
+## PREPARACIÓN (antes de empezar)
+- Tener la cuenta AWS activa (root solo para crear IAM / billing).
+- Crear usuario IAM para prácticas (no usar root).
+- Activar alarmas de facturación (CloudWatch + SNS) con umbral bajo (ej. 5 USD).
+- Preparar archivos listos: proyectoA/index.html, css/, images/.
+
+---
+
+## SECCIÓN A: Despliegue básico en S3 (hosting estático)
+1. Entrar a la consola AWS -> S3.
+2. Crear bucket:
+   - Nombre único (ej: jordan-portfolio-2026).
+   - Seleccionar región cercana (ej: us-east-1 o la más próxima geográficamente).
+   - Bloquear acceso público: inicialmente ON; cambiar según necesidad.
+3. Subir archivos:
+   - Subir `index.html` y carpeta `assets/` (css, imágenes).
+4. Configurar permisos:
+   - Si vas a hacer hosting público, ajustar la política del bucket para permitir `s3:GetObject` para `arn:aws:s3:::TU_BUCKET/*`.
+   - Alternativa segura: usar CloudFront con OAI (Origin Access Identity) y mantener bucket privado.
+5. Habilitar Static Website Hosting (Properties -> Static website hosting) si quieres URL directa del bucket.
+6. Probar URL de endpoint del bucket.
+
+---
+
+## SECCIÓN B: CDN — CloudFront (opcional pero recomendado)
+1. Console -> CloudFront -> Create distribution.
+2. Origen (Origin): seleccionar el bucket S3 (o la URL del sitio).
+3. Si el bucket es público:
+   - Configura el Origin domain al bucket.
+   - Opción: habilitar caché y políticas por defecto.
+4. Si quieres mantener bucket privado (recomendado):
+   - Crear Origin Access Identity (OAI) y asociarlo para que CloudFront lea el bucket privado.
+   - Cambiar política del bucket para permitir acceso solo desde la OAI.
+5. Asociar un certificado SSL:
+   - Ir a ACM (en la región us-east-1 para CloudFront) y solicitar certificado para tu dominio (si tienes dominio).
+   - Validar (DNS o email).
+6. Después de crear la distribución, probar la URL de CloudFront (puede tardar en desplegar).
+
+---
+
+## SECCIÓN C: HTTPS / ACM (opcional)
+1. Si tienes dominio propio:
+   - Solicitar certificado en ACM (región us-east-1 para CloudFront).
+   - Validar vía DNS (recomendado).
+   - Asociar certificado al distribution CloudFront.
+2. Si no tienes dominio, puedes usar la URL temporal de CloudFront (https ya habilitado por defecto).
+
+---
+
+## SECCIÓN D: Control de costos y seguridad
+1. CloudWatch -> Alarms: crear alarma `EstimatedCharges` >= 5 USD -> notificará a tu correo vía SNS.
+2. Crear un presupuesto en AWS Budgets con notificaciones (ej: 10 USD / mes).
+3. Borrar recursos cuando no los necesites:
+   - Eliminar distribución CloudFront (y esperar invalidación si procede).
+   - Eliminar objetos y luego el bucket S3.
+   - Revocar/rotar claves de IAM si fueron provisionales.
+4. Mantén MFA activado en la cuenta root y en el usuario IAM principal.
+
+---
+
+## SECCIÓN E: Limpieza (importante para no pagar)
+1. CloudFront: disable/disable and delete distribution (puede tardar).
+2. S3: eliminar objetos, luego eliminar bucket.
+3. EC2/EBS/RDS: detener/terminar instancias y borrar volúmenes/snaphots.
+4. Eliminar roles/keys/usuarios IAM temporales si ya no se usan.
+
+---
+
+## NOTAS / COMANDOS ÚTILES
+- Política JSON ejemplo para acceso público (usar con precaución):
