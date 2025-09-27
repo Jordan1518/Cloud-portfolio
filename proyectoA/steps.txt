@@ -7,6 +7,7 @@
 - Crear usuario IAM para prácticas (no usar root).
 - Activar alarmas de facturación (CloudWatch + SNS) con umbral bajo (ej. 5 USD).
 - Preparar archivos listos: proyectoA/index.html, css/, images/.
+- Activar MFA; no usar la cuenta root para tareas diarias.
 
 ---
 
@@ -70,5 +71,5 @@
 
 ---
 
-## NOTAS / COMANDOS ÚTILES
-- Política JSON ejemplo para acceso público (usar con precaución):
+
+
