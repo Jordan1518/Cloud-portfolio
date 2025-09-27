@@ -52,4 +52,28 @@
 - Ejemplo de uso: sitio web con ELB + Auto Scaling para manejar picos de tráfico sin intervención manual.
 
 
+## Módulo 5 - Almacenamiento (resumen)
+
+### Amazon S3 (Simple Storage Service)
+- S3 es un servicio de almacenamiento de objetos para archivos (HTML, imágenes, backups).
+- Casos de uso: hosting de sitios estáticos, backup, distribución de contenido, almacenamiento de logs.
+- Características: alta durabilidad (99.999999999% para objetos), escalabilidad automática, acceso por HTTP(S).
+- Costos: cobro por almacenamiento (GB/mes), requests (PUT/GET) y transferencia de datos saliente.
+
+### EBS (Elastic Block Store)
+- Volúmenes de bloques usados por instancias EC2 (discos virtuales). Persisten mientras no los borres.
+- Útil para sistemas operativos y bases de datos en instancias EC2.
+
+### EFS (Elastic File System)
+- Sistema de archivos compartido (NFS) para múltiples instancias EC2 simultáneas.
+- Ideal para aplicaciones que requieren acceso concurrente a archivos.
+
+### Bases de datos administradas (RDS / DynamoDB)
+- RDS: bases de datos relacionales administradas (MySQL, Postgres, SQL Server). Menos administración.
+- DynamoDB: base de datos NoSQL totalmente gestionada, baja latencia, escalado automático.
+
+(Notas: S3 = objetos / EBS = bloques / EFS = sistema de archivos)
+
+
+
 
