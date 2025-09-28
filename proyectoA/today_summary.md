@@ -8,3 +8,9 @@
 - **Lo que aprendí:** conceptos clave de seguridad en AWS (modelo de responsabilidad compartida) y funcionamiento básico de IAM.
 - **Duda / Por repasar:** profundizar en políticas JSON y en la diferencia práctica entre roles y usuarios.
 - **Próximo paso:** practicar la creación de un usuario IAM y preparar la cuenta AWS cuando tenga cédula/tarjeta.
+
+# Resumen del día - Monitoreo (Módulo 7)
+- **Fecha:** 2025-09-28
+- **Lo que aprendí:** conceptos clave de CloudWatch, CloudTrail y Trusted Advisor; la importancia de alarmas de facturación y métricas de CPU.
+- **Duda / Por repasar:** cómo configurar CloudTrail -> CloudWatch Logs y crear una alerta basada en eventos específicos.
+- **Próximo paso:** cuando tenga cuenta AWS, crear alarma Billing (EstimatedCharges) y probar integración CloudTrail -> CloudWatch.
