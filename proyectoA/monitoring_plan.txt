@@ -1,0 +1,21 @@
+# Monitoring plan (acciones a realizar cuando tenga cuenta AWS)
+
+1) CloudWatch - Alarmas básicas:
+   - Billing: EstimatedCharges >= 5 USD -> SNS -> mi-email
+   - EC2 CPU: CPUUtilization >= 70% durante 5 minutos -> SNS / AutoScaling policy
+   - S3: crear métricas de requests y errores (GET/PUT errors) si fuera necesario
+
+2) CloudWatch - Logs:
+   - Integrar CloudTrail con CloudWatch Logs para alertas de eventos críticos (ej: CreateUser, DeleteBucket).
+   - Crear dashboard con métricas clave (CPU, latencia, errores 5xx) para el servicio.
+
+3) CloudTrail:
+   - Habilitar CloudTrail en toda la organización o en la cuenta (guardar logs en bucket S3 seguro).
+   - Configurar alertas en CloudWatch si se detectan eventos sospechosos (ej: cambios en políticas IAM).
+
+4) Trusted Advisor:
+   - Revisar recomendaciones periódicamente (costos, seguridad, límites).
+   - Aplicar checks de seguridad como: MFA habilitado en root, políticas con permisos excesivos.
+
+5) Limpieza y control:
+   - Revisar CloudWatch/Cost Explorer semanalmente y borrar recursos de prueba al terminar.
