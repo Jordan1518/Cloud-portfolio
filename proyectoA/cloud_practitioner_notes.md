@@ -74,6 +74,8 @@
 
 (Notas: S3 = objetos / EBS = bloques / EFS = sistema de archivos)
 
+## Nota rápida sobre monitoreo
+CloudWatch recoge métricas/alarms/logs; CloudTrail registra llamadas a la API (auditoría). Usar ambos juntos para detectar y responder incidentes.
 
 
 
