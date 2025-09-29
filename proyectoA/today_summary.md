@@ -14,3 +14,9 @@
 - **Lo que aprendí:** conceptos clave de CloudWatch, CloudTrail y Trusted Advisor; la importancia de alarmas de facturación y métricas de CPU.
 - **Duda / Por repasar:** cómo configurar CloudTrail -> CloudWatch Logs y crear una alerta basada en eventos específicos.
 - **Próximo paso:** cuando tenga cuenta AWS, crear alarma Billing (EstimatedCharges) y probar integración CloudTrail -> CloudWatch.
+
+# Resumen del día - Precios y Soporte (Módulo 8)
+- **Fecha:** 2025-09-29
+- **Lo que aprendí:** conceptos clave sobre Free Tier, modelos de precios (pay-as-you-go), uso de Cost Explorer y AWS Budgets para control de gastos.
+- **Duda / Por repasar:** detalles prácticos de Cost Explorer (filtrado por servicio) y ejemplos de umbrales en Budgets.
+- **Próximo paso:** cuando tenga cuenta AWS, crear alarma Billing (EstimatedCharges) y presupuesto mensual en AWS Budgets.
