@@ -77,5 +77,30 @@
 ## Nota rápida sobre monitoreo
 CloudWatch recoge métricas/alarms/logs; CloudTrail registra llamadas a la API (auditoría). Usar ambos juntos para detectar y responder incidentes.
 
+## Módulo 8 - Precios y Soporte (resumen)
+
+### Nivel gratuito (Free Tier)
+- AWS ofrece un Free Tier con límites para servicios comunes (S3, EC2 micro, etc.) durante 12 meses y algunos recursos "Always Free".
+- Importante: respetar límites para evitar cargos.
+
+### Conceptos de precios
+- Modelo principal: **pay-as-you-go** (pagar por lo consumido).
+- Modalidades de precio (ej.: EC2): on-demand, reserved, spot.
+- Costos = almacenamiento + requests + transferencia de datos + servicios gestionados.
+- Herramientas: Cost Explorer para análisis histórico; AWS Budgets para alertas y control.
+
+### Panel de facturación
+- Billing Dashboard: resumen de gastos, facturas y métodos de pago.
+- Opciones: consolidar facturación entre cuentas (pagar una cuenta principal).
+
+### AWS Budgets
+- Permite crear presupuestos (mensual/trimestral/anual) y enviar alertas por email/SNS al superar porcentajes (50%, 80%, 100%).
+- Útil para gestión y control proactivo del gasto.
+
+### Buenas prácticas rápidas
+- Crear alarma de facturación (CloudWatch EstimatedCharges) con umbral bajo (ej. 5 USD) y notificación por email.
+- Crear un Budget mensual con notificaciones al 50/80/100% y revisar Cost Explorer semanalmente.
+- Apagar o eliminar recursos de prueba al terminar (EC2, EBS, CloudFront, snapshots).
+
 
 
