@@ -1,0 +1,7 @@
+# Billing plan (acciones a realizar cuando tenga cuenta AWS)
+
+1) Activar Receive Billing Alerts en Billing Preferences.
+2) CloudWatch: crear alarma EstimatedCharges >= 5 USD -> SNS -> mi-email.
+3) AWS Budgets: crear presupuesto mensual con alertas al 50% / 80% / 100%.
+4) Configurar Cost Explorer para revisar gastos por servicio semanalmente.
+5) Policías internas: apagar recursos de prueba al final del día; eliminar EC2/EBS/CloudFront cuando no se usen.
