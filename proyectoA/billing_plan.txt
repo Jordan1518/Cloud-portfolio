@@ -4,4 +4,5 @@
 2) CloudWatch: crear alarma EstimatedCharges >= 5 USD -> SNS -> mi-email.
 3) AWS Budgets: crear presupuesto mensual con alertas al 50% / 80% / 100%.
 4) Configurar Cost Explorer para revisar gastos por servicio semanalmente.
-5) Políticas internas: apagar recursos de prueba al final del día; eliminar EC2/EBS/CloudFront cuando no se usen.
+5) Políticas internas: apagar/eliminar recursos de prueba al terminar (EC2/EBS/CloudFront).
+6) Revisar Trusted Advisor semanalmente por recomendaciones de coste/seguridad.
