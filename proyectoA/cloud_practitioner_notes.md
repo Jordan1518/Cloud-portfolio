@@ -102,5 +102,14 @@ CloudWatch recoge métricas/alarms/logs; CloudTrail registra llamadas a la API (
 - Crear un Budget mensual con notificaciones al 50/80/100% y revisar Cost Explorer semanalmente.
 - Apagar o eliminar recursos de prueba al terminar (EC2, EBS, CloudFront, snapshots).
 
+## Módulo 9 - Migración e innovación
+
+- **AWS Cloud Adoption Framework (CAF):** guía para alinear estrategia de negocio, personas, procesos y tecnología en una migración.
+- **Estrategias de migración:** Rehost (lift-and-shift), Replatform, Refactor, Repurchase, Retire, Retain. Elegir estrategia según riesgo/coste/tiempo.
+- **AWS Snow family:** dispositivos para mover grandes volúmenes de datos offline (Snowball, Snowcone, Snowmobile).
+- **Migración:** planificar pruebas, entorno de staging, validación de datos y rollback plan.
+- **Innovación:** la nube facilita experimentación (provisionar recursos rápidos, POCs), acelerar time-to-market y reducir costo de entrada.
+- **Resumen práctico:** para migrar, priorizar aplicaciones por criticidad y coste, empezar con un pequeño POC usando la estrategia que minimice riesgo.
+
 
 
