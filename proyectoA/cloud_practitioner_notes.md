@@ -111,5 +111,12 @@ CloudWatch recoge métricas/alarms/logs; CloudTrail registra llamadas a la API (
 - **Innovación:** la nube facilita experimentación (provisionar recursos rápidos, POCs), acelerar time-to-market y reducir costo de entrada.
 - **Resumen práctico:** para migrar, priorizar aplicaciones por criticidad y coste, empezar con un pequeño POC usando la estrategia que minimice riesgo.
 
+## Módulo 10 - Well-Architected & beneficios
+
+- **AWS Well-Architected Framework:** cinco pilares: Operational Excellence, Security, Reliability, Performance Efficiency, Cost Optimization.
+- **Beneficios de la nube:** elasticidad, rapidez para innovar, modelos de coste flexibles, alcance global.
+- **Prácticas clave:** diseñar para fallas (multi-AZ), automatizar (IaC), monitorizar (CloudWatch), optimizar costes (right-sizing, reserved vs spot).
+- **Resumen práctico:** usar el Well-Architected Review para validar diseño antes del despliegue en producción; aplicar recomendaciones de Trusted Advisor.
+
 
 
