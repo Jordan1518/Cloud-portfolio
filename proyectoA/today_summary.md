@@ -25,3 +25,9 @@
 - **Aprendí:** Módulo 9 (CAF, estrategias de migración, Snow) y Módulo 10 (Well-Architected, 5 pilares, prácticas de optimización).
 - **Duda / Por repasar:** ejemplos reales de Replatform vs Refactor (buscar case studies).
 - **Próximo paso:** practicar comandos básicos Linux y empezar labs prácticos cuando tenga cuenta AWS.
+
+# Resumen del día - (2025-10-6)
+- **Aprendí:** Módulo 11 (dominios del examen Cloud Practitioner: Cloud Concepts, Security, Technology, Billing & Pricing). Realicé evaluación final / quizzes.
+- **Duda / Por repasar:** (añade aquí si quedó alguna pregunta sin resolver, p. ej. "detalle de reserved instances").
+- **Próximo paso:** practicar 3 simulacros del Cloud Practitioner y continuar con labs prácticos cuando tenga cuenta AWS.
+
