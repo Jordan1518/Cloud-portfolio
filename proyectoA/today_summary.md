@@ -20,3 +20,8 @@
 - **Lo que aprendí:** conceptos clave sobre Free Tier, modelos de precios (pay-as-you-go), uso de Cost Explorer y AWS Budgets para control de gastos.
 - **Duda / Por repasar:** detalles prácticos de Cost Explorer (filtrado por servicio) y ejemplos de umbrales en Budgets.
 - **Próximo paso:** cuando tenga cuenta AWS, crear alarma Billing (EstimatedCharges) y presupuesto mensual en AWS Budgets.
+
+# Resumen del día - (2025-10-5)
+- **Aprendí:** Módulo 9 (CAF, estrategias de migración, Snow) y Módulo 10 (Well-Architected, 5 pilares, prácticas de optimización).
+- **Duda / Por repasar:** ejemplos reales de Replatform vs Refactor (buscar case studies).
+- **Próximo paso:** practicar comandos básicos Linux y empezar labs prácticos cuando tenga cuenta AWS.
