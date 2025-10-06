@@ -118,5 +118,24 @@ CloudWatch recoge métricas/alarms/logs; CloudTrail registra llamadas a la API (
 - **Prácticas clave:** diseñar para fallas (multi-AZ), automatizar (IaC), monitorizar (CloudWatch), optimizar costes (right-sizing, reserved vs spot).
 - **Resumen práctico:** usar el Well-Architected Review para validar diseño antes del despliegue en producción; aplicar recomendaciones de Trusted Advisor.
 
+## Módulo 11 - Conceptos para AWS Certified Cloud Practitioner
+
+- **Áreas clave del examen:** 
+  - *Cloud Concepts* (beneficios de la nube, modelos IaaS/PaaS/SaaS, regiones y zonas de disponibilidad).
+  - *Security & Compliance* (modelo de responsabilidad compartida, IAM, cifrado básico, buenas prácticas).
+  - *Technology* (servicios principales: EC2, S3, RDS, VPC, Lambda, CloudFront; cómo se integran).
+  - *Billing & Pricing* (free tier, pay-as-you-go, reserved instances, Cost Explorer, Budgets, CloudWatch EstimatedCharges).
+
+- **Estrategias para el examen:**
+  - Leer preguntas buscando el *objetivo* (qué se pide exactamente).
+  - Eliminar respuestas obviamente incorrectas y comparar las restantes.
+  - Priorizar entender conceptos y relaciones entre servicios (no memorizar solo números).
+
+- **Consejos prácticos:**
+  - Repasa el Well-Architected y casos de uso comunes (backup, alta disponibilidad, recuperación).
+  - Practica ejercicios de facturación (ej.: cuándo conviene reserved vs on-demand).
+  - Hacer la evaluación final del curso para consolidar conocimientos.
+
+- **Próximo paso recomendado:** resolver 3–5 simulacros de examen Cloud Practitioner en la Skill Builder o recursos gratuitos antes de reservar examen.
 
 
