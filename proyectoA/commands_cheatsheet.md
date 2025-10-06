@@ -1,5 +1,4 @@
 # Cheatsheet rápido — comandos Linux básicos (útiles para proyectos y prácticas)
-# Guarda este archivo en `proyectoA/` para consultarlo cuando practiques en terminal.
 
 # ============================
 # 1. pwd
