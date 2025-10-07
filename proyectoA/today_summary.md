@@ -31,3 +31,7 @@
 - **Duda / Por repasar:** (añade aquí si quedó alguna pregunta sin resolver, p. ej. "detalle de reserved instances").
 - **Próximo paso:** practicar 3 simulacros del Cloud Practitioner y continuar con labs prácticos cuando tenga cuenta AWS.
 
+# Resumen del día - (2025-10-7)
+- **Aprendí:** simulacro Cloud Practitioner + revisión de errores; identifiqué debilidades en (ej: Billing & Pricing).
+- **Duda / Por repasar:** diferencias concretas entre modelos de precio; ejemplos prácticos de IAM.
+- **Próximo paso:** practicar 2 simulacros más esta semana y crear 15 fichas (flashcards) con las dudas.
