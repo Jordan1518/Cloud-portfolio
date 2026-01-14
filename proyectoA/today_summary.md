@@ -35,3 +35,11 @@
 - **Aprendí:** simulacro Cloud Practitioner + revisión de errores; identifiqué debilidades en (ej: Billing & Pricing).
 - **Duda / Por repasar:** diferencias concretas entre modelos de precio; ejemplos prácticos de IAM.
 - **Próximo paso:** practicar 2 simulacros más esta semana y crear 15 fichas (flashcards) con las dudas.
+
+# Resumen del día - (2026-01-13)
+
+-Hoy retomé Cloud Computing.
+-Repasé conceptos básicos (Cloud, AWS, S3, IAM, Free Tier, CloudFront).
+-Instalé Git, descargué mi proyecto de GitHub y abrí mi página (index.html) en el navegador.
+-Entendí que GitHub guarda el código, pero el proyecto real está en mi PC.
+
