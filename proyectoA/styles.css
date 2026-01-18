@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f7fa;
+  color: #333;
+  margin: 40px;
+}
+
+h1 {
+  color: #2c3e50;
+}
+
+h2 {
+  color: #34495e;
+  margin-top: 30px;
+}
+
+p {
+  line-height: 1.6;
+}
+
+a {
+  color: #2980b9;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+.intro {
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  margin-bottom: 40px;
+}
+
+.welcome {
+  font-weight: bold;
+  color: #2980b9;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 1.1em;
+  margin-top: 10px;
+}
+
+.objective {
+  font-size: 1.1em;
+  margin-top: 10px;
+}
+
