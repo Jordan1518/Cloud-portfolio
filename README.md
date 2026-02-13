@@ -5,7 +5,7 @@ Proyectos y prácticas - Cloud Computing / SENA
 Jordan Castano
 
 ## Objetivo
-Formarme en Cloud Computing (AWS) y luego especializarme en Cloud Security. Empezando SENA – Tecnólogo en Gestión de Redes de Datos.
+Formarme en Cloud Computing (AWS) y luego especializarme en Cloud Security. Empezando SENA – Análisis y desarrollo de software.
 
 ## Horario de estudio
 Lunes, Martes, Jueves, Sábado, Domingo — 2 h/día.
