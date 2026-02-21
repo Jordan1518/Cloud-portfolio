@@ -1,0 +1,108 @@
+# Aprendizaje Linux - Semana 1 (Feb 13-17, 2025)
+
+## Día 1: Navegación y Archivos Básicos
+**Fecha:** 13 de febrero 2025
+
+**Comandos practicados:**
+- `pwd` - Ver directorio actual
+- `ls` - Listar archivos
+- `ls -l` - Listar con detalles
+- `ls -la` - Listar con detalles + ocultos
+- `cd` - Cambiar directorio
+- `mkdir practica_feb2025` - Crear carpeta
+- `touch archivo.txt` - Crear archivo vacío
+- `echo "texto" > archivo.txt` - Escribir en archivo
+- `cat archivo.txt` - Ver contenido
+
+**Lo que aprendí:**
+- La terminal no da miedo, es solo comandos
+- `pwd` siempre me dice dónde estoy
+- `ls -la` muestra TODO
+
+---
+
+## Día 2: Copiar, Mover y Borrar
+**Fecha:** 14 de febrero 2025
+
+**Comandos practicados:**
+- `cp archivo.txt copia.txt` - Copiar archivo
+- `cp -r carpeta/ copia/` - Copiar carpeta completa
+- `mv archivo.txt nueva_ubicacion/` - Mover archivo
+- `mv viejo.txt nuevo.txt` - Renombrar archivo
+- `rm archivo.txt` - Borrar archivo
+- `rm -r carpeta/` - Borrar carpeta
+
+**Conceptos importantes:**
+- `cp` = copiar (copy)
+- `mv` = mover/renombrar (move)
+- `rm` = borrar (remove) - ¡CUIDADO!
+- `-r` = recursivo (para carpetas)
+
+**Comodines practicados:**
+- `*.txt` - Todos los archivos .txt
+- `mv *.txt carpeta/` - Mover todos los .txt
+
+---
+
+## Día 3: Permisos (chmod)
+**Fecha:** 15 de febrero 2025
+
+**Comandos practicados:**
+- `ls -la` - Ver permisos detallados
+- `chmod +x script.sh` - Hacer ejecutable
+- `chmod -w archivo.txt` - Quitar escritura
+- `chmod 644 archivo.txt` - Permisos numéricos
+- `chmod 755 script.sh` - Script ejecutable
+- `chmod 700 privado.txt` - Solo dueño
+
+**Sistema de permisos:**
+- `r` (read) = 4 = leer
+- `w` (write) = 2 = escribir
+- `x` (execute) = 1 = ejecutar
+
+**Ejemplos:**
+- `644` = `-rw-r--r--` (archivo normal)
+- `755` = `-rwxr-xr-x` (script ejecutable)
+- `700` = `-rwx------` (privado)
+
+---
+
+## Día 4: Búsqueda (find y grep)
+**Fecha:** 16 de febrero 2025
+
+**Comandos find (buscar archivos):**
+- `find . -name "*.txt"` - Buscar todos los .txt
+- `find . -type f` - Buscar solo archivos
+- `find . -type d` - Buscar solo directorios
+
+**Comandos grep (buscar texto):**
+- `grep "palabra" archivo.txt` - Buscar en archivo
+- `grep -r "palabra" .` - Buscar recursivamente
+- `grep -i "palabra" archivo.txt` - Ignorar mayúsculas
+- `grep -n "palabra" archivo.txt` - Mostrar número de línea
+
+**Diferencia clave:**
+- `find` = busca ARCHIVOS por nombre
+- `grep` = busca TEXTO dentro de archivos
+
+---
+
+## Resumen General
+
+**Total de comandos dominados:** 30+
+
+**Habilidades adquiridas:**
+✅ Navegar por directorios sin miedo
+✅ Crear, copiar, mover y borrar archivos
+✅ Entender y modificar permisos
+✅ Buscar archivos y texto
+✅ Usar comodines (*)
+
+**Próximos pasos:**
+- Practicar pipes y redirección
+- Aprender scripts bash básicos
+- Combinar comandos
+- Gestión de procesos
+
+**Carpeta de práctica:** `~/practica_feb2025/`
+**Estado:** Todo funcional ✅
