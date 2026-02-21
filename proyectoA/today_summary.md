@@ -43,3 +43,29 @@
 -Instalé Git, descargué mi proyecto de GitHub y abrí mi página (index.html) en el navegador.
 -Entendí que GitHub guarda el código, pero el proyecto real está en mi PC.
 
+## 18 de febrero 2025 - INICIO SEMANA 2
+
+**Aprendí/practiqué:**
+- ✅ Configuré Git en WSL completamente
+- ✅ Cloné mi repositorio GitHub a local
+- ✅ Creé documentación completa de Linux Semana 1
+- ✅ Entendí el flujo: git add → commit → push
+- ✅ Configuré autenticación con Personal Access Token
+- ✅ Hice mi primer push exitoso desde WSL
+
+**Comandos Git dominados HOY:**
+- git clone (clonar repositorio)
+- git status (ver cambios)
+- git add (preparar archivos)
+- git commit -m "mensaje" (guardar cambios)
+- git push (subir a GitHub)
+- git log (ver historial)
+
+**Conceptos clave entendidos:**
+- Diferencia entre local y remoto
+- Staging area
+- Commits
+- Personal Access Token para autenticación
+
+**Logro importante:**
+🎉 ¡Mi primer flujo completo Git desde WSL hasta GitHub!
