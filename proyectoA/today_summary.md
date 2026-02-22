@@ -99,5 +99,39 @@
 - Estructura de proyecto profesional
 - Documentación con tablas Markdown
 
+## 20 de febrero 2025
+
+**Aprendí/practiqué:**
+- ✅ Bash scripting desde cero
+- ✅ Variables en bash
+- ✅ Condicionales (if)
+- ✅ Captura de comandos con $()
+- ✅ Shebang (#!/bin/bash)
+- ✅ chmod +x para hacer ejecutables
+- ✅ Estructura de proyecto de código
+- ✅ Documentación técnica profesional
+
+**Scripts creados:**
+1. backup_practica.sh - Backup automático
+2. limpieza_tmp.sh - Búsqueda de temporales
+3. info_sistema.sh - Información del sistema
+
+**Proyecto completo:**
+📁 scripts-automatizacion/
+- README.md (documentación principal)
+- docs/como-usar.md (guía de uso)
+- docs/conceptos-bash.md (conceptos técnicos)
+- scripts/ (3 scripts ejecutables)
+
+**Conceptos bash dominados:**
+- Variables: NOMBRE="valor"
+- Comandos: $(date +%Y%m%d)
+- Condicionales: if [ $? -eq 0 ]
+- Permisos: chmod +x
+- Redirección: 2>/dev/null
+
+**Logro importante:**
+🎉 ¡Primeros scripts funcionales creados!
+
 **Próximo paso:**
-- Mañana: Crear proyecto más complejo + práctica avanzada
+- Mañana: Práctica combinada + preparación final para SENA
