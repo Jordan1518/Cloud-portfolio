@@ -69,3 +69,35 @@
 
 **Logro importante:**
 🎉 ¡Mi primer flujo completo Git desde WSL hasta GitHub!
+## 19 de febrero 2025
+
+**Aprendí/practiqué:**
+- ✅ Git branches (ramas) - crear, cambiar, merge
+- ✅ Flujo de trabajo con branches
+- ✅ Crear mini-proyecto estructurado
+- ✅ Documentación profesional con tablas
+- ✅ Integración Linux + Git en proyecto real
+
+**Comandos Git avanzados dominados:**
+- git branch - ver/crear ramas
+- git checkout - cambiar entre ramas
+- git checkout -b - crear y cambiar en un paso
+- git merge - unir ramas
+- git branch -d - borrar ramas
+- git log --graph --all - ver árbol de commits
+
+**Proyecto creado:**
+📁 mi-cheatsheet-linux-git/
+- README.md principal
+- comandos/linux-esencial.md
+- comandos/git-esencial.md
+- ejemplos/ejemplo-flujo-completo.md
+
+**Conceptos clave:**
+- Branches permiten trabajar en paralelo
+- Merge une cambios de diferentes ramas
+- Estructura de proyecto profesional
+- Documentación con tablas Markdown
+
+**Próximo paso:**
+- Mañana: Crear proyecto más complejo + práctica avanzada
