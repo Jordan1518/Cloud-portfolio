@@ -104,7 +104,7 @@ cd ~/Cloud-portfolio/scripts-automatizacion
 ## 📅 Información
 
 **Autor:** Jordan1518  
-**Fecha:** 20 de febrero 2025  
+**Fecha:** 20 de febrero 2026
 **Propósito:** Práctica de automatización Linux  
 **Repositorio:** [Cloud-portfolio](https://github.com/Jordan1518/Cloud-portfolio)
 
