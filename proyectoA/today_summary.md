@@ -43,7 +43,7 @@
 -Instalé Git, descargué mi proyecto de GitHub y abrí mi página (index.html) en el navegador.
 -Entendí que GitHub guarda el código, pero el proyecto real está en mi PC.
 
-## 18 de febrero 2025 - INICIO SEMANA 2
+## 18 de febrero 2026
 
 **Aprendí/practiqué:**
 - ✅ Configuré Git en WSL completamente
@@ -69,7 +69,7 @@
 
 **Logro importante:**
 🎉 ¡Mi primer flujo completo Git desde WSL hasta GitHub!
-## 19 de febrero 2025
+## 19 de febrero 2026
 
 **Aprendí/practiqué:**
 - ✅ Git branches (ramas) - crear, cambiar, merge
@@ -99,7 +99,7 @@
 - Estructura de proyecto profesional
 - Documentación con tablas Markdown
 
-## 20 de febrero 2025
+## 20 de febrero 2026
 
 **Aprendí/practiqué:**
 - ✅ Bash scripting desde cero
@@ -130,7 +130,7 @@
 - Permisos: chmod +x
 - Redirección: 2>/dev/null
 
-## 22 de febrero 2025 - PREPARACIÓN COMPLETADA ✅
+## 22 de febrero 2026 - PREPARACIÓN COMPLETADA ✅
 
 **Aprendí/practiqué:**
 - ✅ Actualicé cheatsheet con bash 
