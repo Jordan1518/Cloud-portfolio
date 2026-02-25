@@ -1,7 +1,7 @@
 #!/bin/bash
 # Script de backup simple
 # Autor: Jordan1518
-# Fecha: 20 Feb 2025
+# Fecha: 20 Feb 2026
 
 # Variables
 ORIGEN="$HOME/practica_feb2025"
