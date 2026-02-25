@@ -1,7 +1,7 @@
-# Aprendizaje Linux - Semana 1 (Feb 13-17, 2025)
+# Aprendizaje Linux - Semana 1 (Feb 13-17, 2026)
 
 ## Día 1: Navegación y Archivos Básicos
-**Fecha:** 13 de febrero 2025
+**Fecha:** 13 de febrero 2026
 
 **Comandos practicados:**
 - `pwd` - Ver directorio actual
@@ -22,7 +22,7 @@
 ---
 
 ## Día 2: Copiar, Mover y Borrar
-**Fecha:** 14 de febrero 2025
+**Fecha:** 14 de febrero 2026
 
 **Comandos practicados:**
 - `cp archivo.txt copia.txt` - Copiar archivo
@@ -45,7 +45,7 @@
 ---
 
 ## Día 3: Permisos (chmod)
-**Fecha:** 15 de febrero 2025
+**Fecha:** 15 de febrero 2026
 
 **Comandos practicados:**
 - `ls -la` - Ver permisos detallados
@@ -68,7 +68,7 @@
 ---
 
 ## Día 4: Búsqueda (find y grep)
-**Fecha:** 16 de febrero 2025
+**Fecha:** 16 de febrero 2026
 
 **Comandos find (buscar archivos):**
 - `find . -name "*.txt"` - Buscar todos los .txt
