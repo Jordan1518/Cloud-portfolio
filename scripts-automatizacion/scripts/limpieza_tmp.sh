@@ -1,7 +1,7 @@
 #!/bin/bash
 # Limpieza de archivos temporales
 # Autor: Jordan1518
-# Fecha: 20 Feb 2025
+# Fecha: 20 Feb 2026
 
 echo "🧹 Iniciando limpieza de archivos temporales..."
 
