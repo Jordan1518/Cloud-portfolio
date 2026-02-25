@@ -1,7 +1,7 @@
 #!/bin/bash
 # Información del sistema
 # Autor: Jordan1518
-# Fecha: 20 Feb 2025
+# Fecha: 20 Feb 2026
 
 echo "======================================"
 echo "   INFORMACIÓN DEL SISTEMA"
