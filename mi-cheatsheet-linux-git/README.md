@@ -30,7 +30,5 @@ git push    # Subir a GitHub
 - Repositorio: GitHub/Cloud-portfolio
 
 ## ✍️ Autor
-Jordan1518 - Estudiante SENA 2025
+Jordan1518 - Estudiante SENA 2026
 
-## 📅 Última actualización
-19 de febrero 2025
